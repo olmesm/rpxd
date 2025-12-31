@@ -106,7 +106,7 @@ export async function create${caseHelpers.pascalCase(feature)}(
 			select: { id: true },
 		})
 
-		id = post.id
+		id = ${caseHelpers.camelCase(feature)}.id
 	} catch (error) {
 		const baseState: ${caseHelpers.pascalCase(
 			feature,

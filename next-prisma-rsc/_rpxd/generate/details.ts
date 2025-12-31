@@ -23,7 +23,7 @@ export function ${caseHelpers.pascalCase(feature)}({ ${caseHelpers.camelCase(
 					attribute.name,
 				)}:</strong> {${caseHelpers.camelCase(feature)}.${caseHelpers.camelCase(
 						attribute.name,
-					)}}
+					)}.toString()}
 			</p>
 					`.trim(),
 				)
