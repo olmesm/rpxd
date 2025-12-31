@@ -25,7 +25,11 @@ rpxd is included in the project and allows for rapid scaffolding.
 To generate a new resource:
 
 ```bash
+npx rpxd generate <feature-singular> [...attribute:attribute-type]
 npx rpxd generate todo name done:boolean
+
+npx prisma format
+npx prisma migrate dev --name adds-todo
 ```
 
 See [github:olmesm/rpxd](https://github.com/olmesm/rpxd) and `./_rpxd` for more.

@@ -14,6 +14,8 @@ npm i -D rpxd
 npx rpxd <command> <feature> [...attributes]
 ```
 
+Attribute types are found in [rpxd/src/utils/index.ts](rpxd/src/utils/index.ts). Defaults to `string`
+
 ## Example
 
 Running `npx rpxd <command> <feature> [...attributes]`, rpxd will look in the root of the project for an `_rpxd/<command>` and run the templates declared in the default export.

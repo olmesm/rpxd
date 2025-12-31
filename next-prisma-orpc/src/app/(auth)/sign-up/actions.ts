@@ -21,7 +21,7 @@ export async function signUp(
 	_prev: SignUpActionState,
 	formData: FormData,
 ): Promise<SignUpActionState> {
-	const raw = Object.fromEntries(formData)
+	const raw = Object.fromEntries(formData.entries())
 
 	const parsed = SignUpSchema.safeParse(raw)
 

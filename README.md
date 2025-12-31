@@ -13,8 +13,14 @@ Rapid Prototyping & Design scaffold tool.
 
 ## Templates
 
-### Next, prisma, React Server Components
+### Next, Prisma, React Server Components
 
 ```bash
 npx degit olmesm/rpxd/next-prisma-rsc <app-name>
+```
+
+### Next, Prisma, ORPC
+
+```bash
+npx degit olmesm/rpxd/next-prisma-orpc <app-name>
 ```

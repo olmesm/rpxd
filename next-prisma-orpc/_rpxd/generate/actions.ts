@@ -81,7 +81,7 @@ export async function create${caseHelpers.pascalCase(feature)}(
 	})
 	if (!session?.user.id) redirect("/sign-in")
 
-	const raw = Object.fromEntries(formData)
+	const raw = Object.fromEntries(formData.entries())
 
 	const parsed = ${caseHelpers.pascalCase(feature)}Schema.safeParse(raw)
 
@@ -136,7 +136,7 @@ export async function update${caseHelpers.pascalCase(feature)}(
 	})
 	if (!session?.user.id) redirect("/sign-in")
 
-	const raw = Object.fromEntries(formData)
+	const raw = Object.fromEntries(formData.entries())
 
 	const parsed = ${caseHelpers.pascalCase(feature)}Schema.safeParse(raw)
 

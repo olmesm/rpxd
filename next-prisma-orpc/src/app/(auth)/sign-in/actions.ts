@@ -20,7 +20,7 @@ export async function signIn(
 	_prev: SignInActionState,
 	formData: FormData,
 ): Promise<SignInActionState> {
-	const raw = Object.fromEntries(formData)
+	const raw = Object.fromEntries(formData.entries())
 
 	const parsed = SignInSchema.safeParse(raw)
 
