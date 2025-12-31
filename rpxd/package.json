@@ -1,0 +1,38 @@
+{
+	"name": "rpxd",
+	"private": false,
+	"version": "0.1.0",
+	"description": "Rapid Prototyping & Design scaffold tool",
+	"license": "MIT",
+	"homepage": "https://github.com/olmesm/rpxd",
+	"repository": "github:olmesm/rpxd",
+	"bugs": "https://github.com/olmesm/rpxd/issues",
+	"keywords": [
+		"prototyping",
+		"scaffold",
+		"generators",
+		"plop",
+		"yeoman"
+	],
+	"author": "github:olmesm",
+	"type": "module",
+	"exports": {
+		".": "./src/index.ts",
+		"./utils": "./src/utils/index.ts"
+	},
+	"bin": {
+		"rpxd": "src/bin.js",
+		".": "src/bin.js"
+	},
+	"devDependencies": {
+		"@types/node": "^25.0.3",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"@types/pluralize": "^0.0.33",
+		"es-toolkit": "^1.43.0",
+		"pluralize": "^8.0.0",
+		"tsx": "^4.21.0",
+		"zod": "^4.3.2"
+	}
+}
