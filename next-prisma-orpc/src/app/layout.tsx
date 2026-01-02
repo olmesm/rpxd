@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import "./globals.css"
 import { Navbar } from "./components/navbar"
+import "@/lib/rpc-server"
 
 export const metadata: Metadata = {
 	title: "rpxd",
