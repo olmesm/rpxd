@@ -5,10 +5,10 @@ rpxd project with next, prisma, and rsc.
 ## Development
 
 ```bash
-npm install
-
 # fill out .env values
 cp .env.example .env
+
+npm install
 
 npx prisma migrate deploy
 npx prisma generate
