@@ -1,6 +1,6 @@
-# rpxd-next-prisma-rsc
+# rpxd-next-orpc
 
-rpxd project with next, prisma, and rsc.
+rpxd project with next, prisma, and ORPC.
 
 ## Development
 
